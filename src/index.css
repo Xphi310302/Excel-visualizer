@@ -6,12 +6,11 @@
   box-sizing: border-box;
 }
 
-.wrapper{
-  width: 100%;
-  max-width: 1500px;
+.wrapper {
   margin: auto;
   overflow-x: auto;
   padding: 20px;
+  box-sizing: border-box; /* Include padding and border in the total width */
 }
 
 .custom-form{
