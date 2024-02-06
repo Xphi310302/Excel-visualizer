@@ -12,6 +12,19 @@
   padding: 20px;
   box-sizing: border-box; /* Include padding and border in the total width */
 }
+/* Optionally, you can add styles to ensure better visibility of the scrollbar */
+.wrapper::-webkit-scrollbar {
+  width: 12px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+.wrapper::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
 
 .custom-form{
   width: 500px;
