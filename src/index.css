@@ -1,0 +1,71 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.custom-form{
+  width: 500px;
+}
+
+.btn{
+  margin: 10px 0;
+}
+
+.viewer{
+  width: 100%;
+  background-color: #e3e5ec;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-container {
+  max-height: 550px; /* Set your desired height */
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table th,
+.table td {
+  border: 3px solid #9d9797;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #2a5d6f;
+}
+
+.wrapper {
+  background: url('../public/bosch_template') repeat-x 0 0.5px;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper h3 {
+  color: #f0eae6;
+}
